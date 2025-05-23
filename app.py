@@ -34,13 +34,5 @@ def check_fields(body, fields):
     fields_set = set(body.keys())
     return required_parameters_set <= fields_set
 
-print(check_fields({}, {'id', 'quantity'}))
-print(check_fields({'id':0}, {'id', 'quantity'}))
-print(check_fields({'id': 0, 'quantity': 0}, {'id', 'quantity'}))
-print(check_fields({'id':0, 'quantity':0, 'description':""}, {'id', 'quantity'}))
-
-
-
-
 if __name__ == '__main__':
     app.run(debug=True)
