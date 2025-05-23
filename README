@@ -1,0 +1,25 @@
+Basic Flask app greeting user.
+
+#create a new folder for your app
+mkdir flask_app
+
+#change directory
+cd flask_app
+
+#create virtual environment
+python -m venv venv
+
+#activate virtual environment
+source venv/bin/activate
+
+#initialize git
+git init
+
+#create a .gitignore
+touch .gitignore
+
+#flask set_up
+pip install flask requests
+
+#launch app
+python app.py
