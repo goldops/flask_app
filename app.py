@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route('/cart')
 def cart():
-    return "Parnier vide !"
+    return "Panier vide !"
 
 if __name__ == '__main__':
     app.run(debug=True)
