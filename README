@@ -1,4 +1,5 @@
 Basic Flask app greeting user.
+Basic cart API.
 
 #create a new folder for your app
 mkdir flask_app
